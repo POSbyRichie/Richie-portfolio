@@ -1,0 +1,305 @@
+---
+version: alpha
+name: abhisekpanda072.vercel.app
+description: Dark personal portfolio landing page for a MERN Stack Developer, with a centered hero, neon red accent glow, minimal navigation, and project-focused content.
+colors:
+  primary: "#ff2335"
+  secondary: "#e8f1ef"
+  tertiary: "#374151"
+  neutral: "#000205"
+  surface: "#000205"
+  on-surface: "#e8f1ef"
+  error: "#ff2335"
+typography:
+  headline-display:
+    fontFamily: ui-sans-serif
+    fontSize: 36px
+    fontWeight: 700
+    lineHeight: 43px
+    letterSpacing: 0px
+  headline-lg:
+    fontFamily: ui-sans-serif
+    fontSize: 28px
+    fontWeight: 700
+    lineHeight: 40px
+    letterSpacing: 0px
+  headline-md:
+    fontFamily: ui-sans-serif
+    fontSize: 22px
+    fontWeight: 700
+    lineHeight: 28px
+    letterSpacing: 0px
+  body-lg:
+    fontFamily: ui-sans-serif
+    fontSize: 14px
+    fontWeight: 400
+    lineHeight: 22.75px
+    letterSpacing: 0px
+  body-md:
+    fontFamily: ui-sans-serif
+    fontSize: 14px
+    fontWeight: 400
+    lineHeight: 22.75px
+    letterSpacing: 0px
+  body-sm:
+    fontFamily: ui-sans-serif
+    fontSize: 14px
+    fontWeight: 400
+    lineHeight: 22.75px
+    letterSpacing: 0px
+  label-lg:
+    fontFamily: ui-sans-serif
+    fontSize: 14px
+    fontWeight: 500
+    lineHeight: 22px
+    letterSpacing: 0px
+  label-md:
+    fontFamily: ui-sans-serif
+    fontSize: 14px
+    fontWeight: 500
+    lineHeight: 22px
+    letterSpacing: 0px
+  label-sm:
+    fontFamily: ui-sans-serif
+    fontSize: 14px
+    fontWeight: 400
+    lineHeight: 22px
+    letterSpacing: 0px
+rounded:
+  none: 0px
+  sm: 6px
+  md: 8px
+  lg: 12px
+  xl: 16px
+  full: 9999px
+spacing:
+  xs: 8px
+  sm: 16px
+  md: 28px
+  lg: 48px
+  xl: 80px
+components:
+  button:
+    primary:
+      backgroundColor: "{colors.primary}"
+      color: "{colors.on-surface}"
+      borderColor: transparent
+      borderRadius: "{rounded.sm}"
+      borderWidth: 1px
+      borderStyle: solid
+      padding: 0px 12px
+      fontSize: 14px
+      fontWeight: 500
+      minWidth: 149px
+      minHeight: 32px
+      textDecoration: none
+      boxShadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px
+    secondary:
+      backgroundColor: transparent
+      color: "{colors.on-surface}"
+      borderColor: "#00071066"
+      borderRadius: "{rounded.sm}"
+      borderWidth: 1px
+      borderStyle: solid
+      padding: 0px 12px
+      fontSize: 14px
+      fontWeight: 500
+      minWidth: 149px
+      minHeight: 32px
+      textDecoration: none
+      boxShadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px
+    link:
+      backgroundColor: transparent
+      color: "{colors.on-surface}"
+      borderColor: transparent
+      borderRadius: "{rounded.none}"
+      borderWidth: 0px
+      borderStyle: none
+      padding: 0px
+      fontSize: 14px
+      fontWeight: 400
+      minWidth: 0px
+      minHeight: 0px
+      textDecoration: underline
+      boxShadow: none
+  card:
+    backgroundColor: "{colors.surface}"
+    borderColor: "{colors.tertiary}"
+    borderRadius: "{rounded.md}"
+    borderWidth: 1px
+    borderStyle: solid
+    padding: 16px
+    boxShadow: none
+    textColor: "{colors.on-surface}"
+---
+
+## Overview
+
+This site is a dark, high-contrast personal portfolio with a centered hero composition and a strong neon-red brand accent. The visual tone is minimal, modern, and performance-minded: large uppercase identity text, short supporting copy, CTA buttons, and a small row of social icons. The screenshot suggests a full-screen landing section with a subtle grid overlay and soft radial glow behind the headline.
+
+Use this design system to keep layout sparse, typography bold, and interaction cues explicit. The primary goal is to showcase the developer’s identity, resume, contact path, and project credibility without visual clutter.
+
+## Colors
+
+The palette is intentionally small and centered on one accent color.
+
+- `primary` is the brand/action red used for the main CTA and glow effects.
+- `secondary` is the off-white text color used for readable foreground content.
+- `surface` and `neutral` are the near-black background foundation.
+- `tertiary` is a muted border tone for cards and separators.
+- `error` may reuse the primary red where semantic red is needed, though the page does not appear to distinguish them visually.
+
+### Usage guidance
+
+- Prefer `primary` only for the most important interactive elements and emphasis.
+- Use `secondary` for all main text on dark backgrounds.
+- Keep borders and dividers subtle; avoid introducing additional accent hues.
+- Do not add bright secondary colors unless the content demands status semantics.
+
+## Typography
+
+The typography is utilitarian and sans-serif, with strong hierarchy through size and weight rather than decorative styling.
+
+### Tokens
+
+- `headline-display`: use for the hero name/title lockup.
+- `headline-lg`: use for major section headings.
+- `headline-md`: use for project titles and emphasized section labels.
+- `body-lg`, `body-md`, `body-sm`: use for descriptive copy; the system uses a single readable 14px body scale in practice.
+- `label-lg`, `label-md`: use for buttons and short UI labels.
+- `label-sm`: use for subtle secondary labels if needed.
+
+### Rules
+
+- Set hero headings in uppercase when matching the screenshot’s identity block.
+- Keep letter spacing at `0px`; the feel comes from weight and scale, not tracking.
+- Use bold weights for headings, medium weights for CTA labels, and regular weight for explanatory text.
+- Keep body copy concise and centered in the hero area.
+
+## Layout
+
+The page is a single-screen hero-first composition with centered alignment.
+
+### Structure
+
+1. Full-viewport dark background.
+2. Subtle grid overlay across the entire canvas.
+3. Radial red glow behind the hero copy.
+4. Centered identity block with name and role.
+5. Two CTA buttons aligned horizontally.
+6. Small icon row below the CTAs.
+7. Minimal bottom-positioned scroll indicator.
+
+### Spacing behavior
+
+- Use `spacing.xl` for large vertical separation around the hero group.
+- Use `spacing.lg` between headline, description, and actions.
+- Use `spacing.sm` to `spacing.md` for compact gaps between buttons and icons.
+- Keep content width narrow enough that the hero reads as a focused column rather than a wide marketing layout.
+
+### Alignment
+
+- Center all primary content horizontally.
+- Prefer stacked vertical rhythm over multi-column layouts on the landing section.
+- Preserve generous negative space around the hero to reinforce the premium, cinematic feel.
+
+## Elevation & Depth
+
+Depth is created with glow rather than layered shadows.
+
+- The primary button uses a soft shadow and a bright red fill to lift it from the background.
+- The hero area uses a diffuse red ambient glow, strongest behind the main headline.
+- Cards, if used, should remain flat with minimal shadow and a thin border.
+- Avoid heavy elevation, complex shadows, or glassmorphism; they would conflict with the current aesthetic.
+
+## Shapes
+
+The shape language is restrained and slightly rounded.
+
+- `rounded.sm` / `button.primary` radius: 6px
+- `rounded.md` / card radius: 8px
+- `rounded.none` for links and non-button text controls
+- `rounded.full` may be used for circular indicators such as the scroll cue
+
+Use sharp geometry for the overall layout and only soften interactive surfaces slightly.
+
+## Components
+
+### Buttons
+
+#### Primary button
+Use for the highest-priority action, such as “Hire Me”.
+
+- Filled red background
+- Off-white label
+- 32px minimum height
+- 149px minimum width
+- Medium weight label
+- Small left/right padding
+
+#### Secondary button
+Use for secondary actions, such as “Resume”.
+
+- Transparent background
+- Subtle border
+- Same sizing as primary for visual parity
+- Off-white label
+
+#### Link button
+Use for inline or tertiary actions.
+
+- No border or background
+- Underlined text
+- Regular weight
+
+### Card
+
+Use cards for project summaries or grouped skill lists.
+
+- Dark background matching the page base
+- Thin muted border
+- 16px padding
+- No shadow
+- Off-white text
+
+### Icon row
+
+The social icon row should remain minimal and monochrome.
+
+- Keep icons small and evenly spaced
+- Use the on-surface color
+- Avoid filled icon backgrounds
+- Treat icons as low-emphasis navigation, not as primary CTAs
+
+### Hero lockup
+
+The hero should contain:
+
+- Developer name
+- Role label
+- Short two-sentence value proposition
+- Primary and secondary actions
+- Social links
+- Optional scroll cue
+
+Keep the name visually dominant and the supporting copy subordinate.
+
+## Do's and Don'ts
+
+### Do
+
+- Do keep the landing section centered and vertically balanced.
+- Do use the red accent sparingly for emphasis, CTA, and glow.
+- Do keep copy short, direct, and easy to scan.
+- Do preserve the dark theme with high contrast text.
+- Do use simple borders and flat surfaces for cards and controls.
+- Do keep interactive elements large enough to scan quickly, even if the design is minimal.
+
+### Don't
+
+- Don’t introduce new saturated colors that compete with the primary red.
+- Don’t add heavy gradients, complex textures, or layered shadows.
+- Don’t use decorative fonts, italics, or mixed typography styles.
+- Don’t crowd the hero with too many links, badges, or navigation items.
+- Don’t make buttons visually unequal in height or density.
+- Don’t let project cards or section content overpower the hero on first load.

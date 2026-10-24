@@ -1,0 +1,308 @@
+---
+version: alpha
+name: achyutkatiyar.com
+description: Personal portfolio site for Achyut Katiyar, centered on AI engineering, agents, LLM systems, and full-stack project work.
+colors:
+  primary: "#654db6"
+  secondary: "#e4e3f1"
+  tertiary: "#fafafd"
+  background: "#fcfbff"
+  surface: "#fcfbff"
+  on-surface: "#0a0719"
+  neutral: "#e5e7eb"
+  muted: "#6b6784"
+  accent: "#654db6"
+  error: "#dc2626"
+typography:
+  fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
+  fontFeature: "normal"
+  headline-display:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 60px
+    fontWeight: 700
+    lineHeight: 60px
+    letterSpacing: -3px
+  headline-lg:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 46px
+    fontWeight: 600
+    lineHeight: 55px
+    letterSpacing: 0px
+  headline-md:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 35px
+    fontWeight: 600
+    lineHeight: 42px
+    letterSpacing: 0px
+  body-lg:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 20px
+    fontWeight: 400
+    lineHeight: 28px
+    letterSpacing: 0px
+  body-md:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 16px
+    fontWeight: 400
+    lineHeight: 24px
+    letterSpacing: 0px
+  body-sm:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 14px
+    fontWeight: 400
+    lineHeight: 20px
+    letterSpacing: 0px
+  label-lg:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 14px
+    fontWeight: 500
+    lineHeight: 20px
+    letterSpacing: 0px
+  label-md:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 14px
+    fontWeight: 500
+    lineHeight: 20px
+    letterSpacing: 0px
+  label-sm:
+    fontFamily: "ui-sans-serif, system-ui, sans-serif"
+    fontSize: 12px
+    fontWeight: 500
+    lineHeight: 16px
+    letterSpacing: 0px
+rounded:
+  none: 0px
+  sm: 4px
+  md: 8px
+  lg: 12px
+  xl: 16px
+  full: 9999px
+spacing:
+  xs: 6px
+  sm: 16px
+  md: 32px
+  lg: 48px
+  xl: 96px
+components:
+  button:
+    primary:
+      backgroundColor: "{colors.primary}"
+      color: "{colors.tertiary}"
+      borderColor: "transparent"
+      borderWidth: 1px
+      borderStyle: "solid"
+      borderRadius: "{rounded.md}"
+      padding: "13px 16px"
+      fontSize: 14px
+      fontWeight: 500
+      minWidth: 162px
+      minHeight: 40px
+      textDecoration: "none"
+      boxShadow: "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+    secondary:
+      backgroundColor: "{colors.surface}"
+      color: "{colors.on-surface}"
+      borderColor: "{colors.secondary}"
+      borderWidth: 1px
+      borderStyle: "solid"
+      borderRadius: "{rounded.md}"
+      padding: "13px 16px"
+      fontSize: 14px
+      fontWeight: 500
+      minWidth: 162px
+      minHeight: 40px
+      textDecoration: "none"
+      boxShadow: "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+    link:
+      backgroundColor: "transparent"
+      color: "{colors.on-surface}"
+      borderColor: "transparent"
+      borderWidth: 0px
+      borderStyle: "none"
+      borderRadius: "{rounded.none}"
+      padding: 0px
+      fontSize: 14px
+      fontWeight: 400
+      minWidth: 0px
+      minHeight: 0px
+      textDecoration: "underline"
+      boxShadow: "none"
+  card:
+    backgroundColor: "{colors.surface}"
+    borderColor: "{colors.neutral}"
+    borderWidth: 1px
+    borderStyle: "solid"
+    borderRadius: "{rounded.md}"
+    padding: "16px"
+    boxShadow: "none"
+    textColor: "{colors.on-surface}"
+---
+
+# Overview
+
+achyutkatiyar.com is a minimalist personal portfolio with a bright, airy light theme and a strong professional tone. The page foregrounds a concise value proposition, prominent CTA buttons, a centered top navigation, and a circular hero portrait. Social/contact affordances appear both in the header and as floating icon buttons on the right edge.
+
+The visual language is calm and confident: large dark headlines, violet accent treatment, generous whitespace, and subtle borders/shadows. Use this system for portfolio pages, project listings, profile summaries, and simple content sections.
+
+# Colors
+
+The palette is intentionally small and high-contrast.
+
+- **Primary / accent:** `#654db6` for primary CTAs, active nav state, and emphasis.
+- **Background / surface:** `#fcfbff` for the page background and neutral cards.
+- **On-surface text:** `#0a0719` for headings, body text, and iconography.
+- **Borders / neutrals:** `#e4e3f1` and `#e5e7eb` for hairline dividers and component outlines.
+- **Muted text:** use a soft gray-violet tone when secondary copy is needed; exact value is not specified in the source and should remain visually subordinate to primary text.
+- **Error:** `#dc2626` is reserved for destructive or invalid states only; it is not part of the visible homepage pattern.
+
+Use the accent sparingly. The page works because the background stays nearly white and the violet is reserved for hierarchy, not decoration.
+
+# Typography
+
+Typography is Inter-first in practice, with a generic ui-sans-serif fallback stack.
+
+## Headings
+- `headline-display`: `60px / 60px`, weight `700`, letter-spacing `-3px`
+- `headline-lg`: `46px / 55px`, weight `600`
+- `headline-md`: `35px / 42px`, weight `600`
+
+## Body
+- `body-lg`: `20px / 28px`, weight `400`
+- `body-md`: `16px / 24px`, weight `400`
+- `body-sm`: `14px / 20px`, weight `400`
+
+## Labels
+- `label-lg`: `14px / 20px`, weight `500`
+- `label-md`: `14px / 20px`, weight `500`
+- `label-sm`: `12px / 16px`, weight `500`
+
+Implementation guidance:
+- Use `headline-display` for the hero H1.
+- Use `headline-md` or `headline-lg` for section titles.
+- Use `body-lg` for hero description and key supporting text.
+- Use `label-md` for buttons, nav items, and utility controls.
+- Keep tracking tight on the largest heading only; other text is normal letter-spacing.
+
+# Layout
+
+The homepage is a single-screen hero with a fixed-width content rhythm and large whitespace.
+
+- Top navigation sits in a shallow header bar with the brand on the left, nav links centered, and a theme toggle/icon on the right.
+- The main hero is a two-column composition:
+  - left: headline, subtitle, supporting paragraph, primary/secondary CTAs, and small social icons
+  - right: circular portrait image
+- Social/contact shortcuts also appear as floating circular buttons aligned to the right viewport edge.
+- Content is aligned to a generous left margin, with the hero centered vertically in the viewport.
+
+Spacing scale:
+- `xs`: `6px`
+- `sm`: `16px`
+- `md`: `32px`
+- `lg`: `48px`
+- `xl`: `96px`
+
+Use wide section spacing and avoid dense stacking. The composition should feel open even when more content is added below the fold.
+
+# Elevation & Depth
+
+Depth is intentionally restrained.
+
+- Cards and buttons use only a subtle shadow: `rgba(0, 0, 0, 0.05) 0px 1px 2px 0px` or a very light component shadow.
+- The overall page has no visible heavy elevation.
+- Floating round icon buttons should appear slightly lifted through border + shadow rather than dramatic blur.
+- No glassmorphism or strong gradient depth is part of the current style.
+
+Prefer borders over shadows for separation. If a surface needs emphasis, use color contrast and spacing first.
+
+# Shapes
+
+The shape language is soft and controlled.
+
+- `none`: `0px`
+- `sm`: `4px`
+- `md`: `8px`
+- `lg`: `12px`
+- `xl`: `16px`
+- `full`: `9999px`
+
+Usage:
+- Primary and secondary buttons use `md`.
+- Cards use `md`.
+- Circular avatar and floating icon buttons use `full`.
+- The system avoids sharp decorative rounding beyond standard UI controls.
+
+# Components
+
+## Buttons
+Primary and secondary buttons share the same dimensions and typography:
+- minimum width: `162px`
+- minimum height: `40px`
+- padding: `13px 16px`
+- font size: `14px`
+- font weight: `500`
+
+Primary buttons:
+- violet fill
+- white/off-white text
+- transparent border
+- subtle shadow
+
+Secondary buttons:
+- white surface fill
+- dark text
+- light border
+- subtle shadow
+
+Link buttons:
+- transparent background
+- underlined text
+- no shadow
+- compact inline use only
+
+## Cards
+Cards are simple bordered containers:
+- background: surface
+- border: 1px solid neutral
+- radius: `8px`
+- padding: `16px`
+- no shadow
+
+## Navigation
+Navigation items are plain text links with one active state:
+- active link uses accent color and a soft highlighted background
+- inactive links remain muted and unadorned
+- keep the nav compact and horizontally aligned
+
+## Icon buttons
+Small circular icon buttons are used for social/contact actions:
+- round shape
+- light border
+- white surface
+- centered icon
+- compact hit area
+- subtle shadow or border only
+
+## Portrait
+The hero image is a circular crop with no frame-heavy treatment. Keep it large, clean, and visually balanced against the headline block.
+
+# Do's and Don'ts
+
+## Do
+- Do keep the page light, spacious, and professional.
+- Do use `#654db6` only for emphasis, primary actions, and active states.
+- Do keep headings bold and compact, with the hero H1 as the strongest typographic element.
+- Do preserve the two-column hero structure on large screens.
+- Do use simple borders and soft shadows instead of heavy depth effects.
+- Do keep buttons consistent with the documented sizes and radii.
+- Do use circular icon buttons for quick contact links and social shortcuts.
+- Do maintain a restrained palette: dark text, white surfaces, violet accent.
+
+## Don't
+- Don't introduce bright secondary accent colors that compete with the violet brand color.
+- Don't use dense card grids, busy background effects, or noisy gradients.
+- Don't make buttons taller, rounder, or more decorative than the source pattern.
+- Don't switch to serif typography or heavily stylized display fonts.
+- Don't add strong shadows, glows, or neumorphic treatments.
+- Don't replace the clean layout with a sidebar-heavy or magazine-style composition.
+- Don't make body copy small; keep it readable and spacious.
+- Don't overuse accent backgrounds; reserve them for active state and primary CTA moments.

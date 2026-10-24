@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malish Richard | Full-Stack Developer &amp; Digital Solutions Specialist — Richie Digital Solutions</title>
+    <meta
+      name="description"
+      content="Malish Richard (Richie Digital Solutions / CodeWithRichie) is a Full-Stack Developer, AI Engineering student, and Digital Solutions Specialist based in Kampala, Uganda. Building scalable websites, web applications, POS systems, e-commerce platforms, and digital infrastructure."
+    />
+    <meta
+      name="keywords"
+      content="Malish Richard, Richie Digital Solutions, CodeWithRichie, Full-Stack Developer Uganda, Web Developer Kampala, Software Engineer Uganda, POS by Richie, React Developer, Next.js Developer, AI Engineering"
+    />
+    <meta name="author" content="Malish Richard" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.codewithrichie.online/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.codewithrichie.online/" />
+    <meta property="og:site_name" content="Richie Digital Solutions — CodeWithRichie" />
+    <meta property="og:title" content="Malish Richard | Full-Stack Developer &amp; Digital Solutions Specialist" />
+    <meta
+      property="og:description"
+      content="Portfolio of Malish Richard — Full-Stack Web &amp; Application Developer, Systems Specialist, and Founder of Richie Digital Solutions in Kampala, Uganda."
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.codewithrichie.online/" />
+    <meta name="twitter:title" content="Malish Richard | Full-Stack Developer — Richie Digital Solutions" />
+    <meta
+      name="twitter:description"
+      content="Building scalable web applications, POS systems, e-commerce platforms, and institutional portals across Uganda and beyond."
+    />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#fcfbff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#090715" media="(prefers-color-scheme: dark)" />
+
+    <style>
+      html, body { height: 100%; margin: 0; }
+      #root { min-height: 100%; }
+    </style>
+
+    <!-- Prevent flash of incorrect theme -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("richie-theme");
+          var root = document.documentElement;
+          if (stored === "dark") {
+            root.classList.add("dark");
+          } else if (stored === "light") {
+            root.classList.remove("dark");
+          } else {
+            // Default to bright, airy light theme per katiyardesign.md specification
+            root.classList.remove("dark");
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://www.codewithrichie.online/#person",
+            "name": "Malish Richard",
+            "alternateName": ["CodeWithRichie", "Richie"],
+            "jobTitle": "Full-Stack Developer & Digital Solutions Specialist",
+            "url": "https://www.codewithrichie.online/",
+            "email": "mailto:malisrichard@icloud.com",
+            "telephone": "+256775838145",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kampala",
+              "addressCountry": "UG"
+            },
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Richie Digital Solutions",
+              "url": "https://www.codewithrichie.online/"
+            },
+            "sameAs": [
+              "https://github.com/POSbyRichie",
+              "https://www.codewithrichie.online/"
+            ]
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.codewithrichie.online/#organization",
+            "name": "Richie Digital Solutions",
+            "alternateName": "CodeWithRichie",
+            "url": "https://www.codewithrichie.online/",
+            "founder": {
+              "@id": "https://www.codewithrichie.online/#person"
+            },
+            "telephone": "+256775838145",
+            "email": "contact@codewithrichie.online",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kampala",
+              "addressCountry": "UG"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

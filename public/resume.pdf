@@ -1,0 +1,195 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 8885 >>
+stream
+0.04 0.03 0.1 rg
+BT /F2 20 Tf 42.00 801.89 Td (MALISH RICHARD) Tj ET
+0.25 0.24 0.32 rg
+BT /F1 8.8 Tf 409.66 807.89 Td (Kampala, Uganda | +256 775 838 145) Tj ET
+0.25 0.24 0.32 rg
+BT /F1 8.5 Tf 328.88 796.89 Td (malisrichard@icloud.com | contact@codewithrichie.online) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 9.2 Tf 42.00 787.89 Td (Full-Stack Developer & Digital Solutions Specialist  |  Founder, RICHIE DIGITAL SOLUTIONS \(CodeWithRichie\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F1 8.5 Tf 365.60 787.89 Td (codewithrichie.online | github.com/POSbyRichie) Tj ET
+0.04 0.03 0.1 RG
+1.2 w 42 780.89 m 553.28 780.89 l S
+0.396 0.302 0.714 rg
+BT /F2 9.5 Tf 42.00 763.89 Td (PROFESSIONAL SUMMARY) Tj ET
+0.78 0.77 0.86 RG
+0.75 w 42 759.89 m 553.28 759.89 l S
+0.15 0.14 0.22 rg
+BT /F1 8.8 Tf 42.00 748.89 Td (Multi-skilled Full-Stack Developer, Systems Specialist, and AI Engineering student based in Kampala, Uganda,) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.8 Tf 42.00 737.39 Td (with 3+ years of hands-on experience designing, building, and deploying 35+ production websites, commercial) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.8 Tf 42.00 725.89 Td (SaaS tools, Point-of-Sale \(POS\) software, e-commerce platforms, and institutional school portals through) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.8 Tf 42.00 714.39 Td (Richie Digital Solutions \(CodeWithRichie\). Proven ability to combine modern full-stack engineering \(React,) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.8 Tf 42.00 702.89 Td (Next.js, TypeScript, Node.js, Supabase, PostgreSQL, MongoDB, WordPress\) with enterprise IT administration) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.8 Tf 42.00 691.39 Td (and brand identity design.) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 9.5 Tf 42.00 666.89 Td (EDUCATION) Tj ET
+0.78 0.77 0.86 RG
+0.75 w 42 662.89 m 553.28 662.89 l S
+0.04 0.03 0.1 rg
+BT /F2 9 Tf 42.00 651.89 Td (Bachelor's Degree in AI Engineering - University Studies \(Uganda\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 8.5 Tf 479.84 651.89 Td (Currently Pursuing) Tj ET
+0.25 0.24 0.32 rg
+BT /F1 8.4 Tf 50.00 640.89 Td (Focus: Artificial Intelligence Engineering, software architecture, algorithms, databases, and full-stack systems.) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 9 Tf 42.00 628.39 Td (Uganda Advanced Certificate of Education \(A-Level\) - St. Peter's High School, Hoima) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 8.5 Tf 496.16 628.39 Td (Completed 2024) Tj ET
+0.25 0.24 0.32 rg
+BT /F1 8.4 Tf 50.00 617.39 Td (Selected to design and deploy the school's official institutional portal \(stpetershighhoima.ac.ug\) serving 2,000+ students.) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 9 Tf 42.00 604.89 Td (Uganda Certificate of Education \(O-Level\) - St. Peter's High School, Hoima) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 8.5 Tf 496.16 604.89 Td (Completed 2022) Tj ET
+0.25 0.24 0.32 rg
+BT /F1 8.4 Tf 50.00 593.89 Td (Strong foundation in mathematics, sciences, and computer studies.) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 9.5 Tf 42.00 568.39 Td (TECHNICAL SKILLS) Tj ET
+0.78 0.77 0.86 RG
+0.75 w 42 564.39 m 553.28 564.39 l S
+0.04 0.03 0.1 rg
+BT /F2 8.7 Tf 42.00 553.39 Td (Frontend Engineering:) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.6 Tf 144.00 553.39 Td (React, Next.js, TypeScript, JavaScript \(ES6+\), Tailwind CSS, HTML5, CSS3, React Router, Motion, Vite) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.7 Tf 42.00 541.59 Td (Backend & Full-Stack:) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.6 Tf 144.00 541.59 Td (Node.js, Express.js, PHP, Python, Django, REST APIs, Role-Based Authentication, POS & Billing Logic) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.7 Tf 42.00 529.79 Td (Databases & Cloud:) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.6 Tf 144.00 529.79 Td (Supabase, PostgreSQL, MySQL, MongoDB, Firebase, Vercel, Netlify, AWS, Docker) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.7 Tf 42.00 517.99 Td (CMS & E-Commerce:) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.6 Tf 144.00 517.99 Td (WordPress, WooCommerce, Custom Admin Dashboards, Webflow, Framer, Mobile Money Checkout, SEO) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.7 Tf 42.00 506.19 Td (Systems, IT & Design:) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.6 Tf 144.00 506.19 Td (Windows/Linux Admin, LAN/WAN Networking, WiFi Billing Systems, Figma, Brand & Print Identity, Git/GitHub) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 9.5 Tf 42.00 481.39 Td (PROFESSIONAL EXPERIENCE) Tj ET
+0.78 0.77 0.86 RG
+0.75 w 42 477.39 m 553.28 477.39 l S
+0.04 0.03 0.1 rg
+BT /F2 9 Tf 42.00 466.39 Td (Founder & Lead Full-Stack Developer - Richie Digital Solutions \(CodeWithRichie\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 8.3 Tf 425.79 466.39 Td (2023 - Present | Kampala, Uganda) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 455.39 Td (- Architected, designed, and deployed 35+ websites, web applications, and SaaS platforms for 30+ clients) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 444.59 Td (  across East Africa.) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 433.79 Td (- Built and launched POS by Richie \(posbyrichie.online\) and QR By Richie \(qrbyrichie.online\) for) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 422.99 Td (  commercial retail & business operations.) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 412.19 Td (- Delivered NGO, corporate, and real estate platforms including IGRAO Africa, BSF Mixed Ventures Ltd,) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 401.39 Td (  African Ocean Consulting, and Chanong Homes.) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 390.59 Td (- Engineered multi-vendor and retail e-commerce stores \(SellConnect Uganda, Monae Store\) with mobile money) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 379.79 Td (  and online checkout.) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 9 Tf 42.00 365.99 Td (Web Portal Developer & Campus IT Consultant - Educational Institutions) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 8.3 Tf 393.92 365.99 Td (2023 - Present | Hoima & Kampala, Uganda) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 354.99 Td (- Developed academic portals for St. Peter's High School Hoima \(2,000+ students\), Mandela SS Hoima \(1,500+) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 344.19 Td (  students\), and Light Junior School.) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 333.39 Td (- Configured campus computer laboratories, LAN/WAN networks, OS deployments, and trained school staff on) Tj ET
+0.2 0.19 0.28 rg
+BT /F1 8.4 Tf 48.00 322.59 Td (  CMS publishing.) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 9.5 Tf 42.00 295.79 Td (SELECTED PRODUCTION PROJECTS) Tj ET
+0.78 0.77 0.86 RG
+0.75 w 42 291.79 m 553.28 291.79 l S
+0.04 0.03 0.1 rg
+BT /F2 8.8 Tf 42.00 280.79 Td (POS by Richie \(posbyrichie.online\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F3 8.1 Tf 397.76 280.79 Td (Next.js, React, Node.js, MongoDB, Vercel) Tj ET
+0.22 0.21 0.3 rg
+BT /F1 8.3 Tf 48.00 270.29 Td (Commercial Point-of-Sale & inventory management suite with real-time checkout, expense tracking, and thermal receipt printing.) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.8 Tf 42.00 258.29 Td (IGRAO Africa \(igrao-africa.org\) & BSF Mixed Ventures \(bsfmixedventuresltd.org\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F3 8.1 Tf 401.65 258.29 Td (React, Next.js, Tailwind CSS, WordPress) Tj ET
+0.22 0.21 0.3 rg
+BT /F1 8.3 Tf 48.00 247.79 Td (Humanitarian NGO & circular-agribusiness platforms highlighting programs, community impact, and global donor/partner pathways.) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.8 Tf 42.00 235.79 Td (SellConnect Uganda \(sellconnectug.com\) & Monae Store \(monaestore.com\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F3 8.1 Tf 397.76 235.79 Td (React, Supabase, PostgreSQL, WooCommerce) Tj ET
+0.22 0.21 0.3 rg
+BT /F1 8.3 Tf 48.00 225.29 Td (Online marketplace \(1,200+ listings\) and retail fashion store \(85% sales growth\) with mobile money payment integrations.) Tj ET
+0.04 0.03 0.1 rg
+BT /F2 8.8 Tf 42.00 213.29 Td (Chanong Homes \(chanonghomes.com\) & QR By Richie \(qrbyrichie.online\)) Tj ET
+0.396 0.302 0.714 rg
+BT /F3 8.1 Tf 382.21 213.29 Td (React, TypeScript, Vite, Supabase, WordPress) Tj ET
+0.22 0.21 0.3 rg
+BT /F1 8.3 Tf 48.00 202.79 Td (Searchable real estate property portal \(+60% inquiries\) and instant browser-based high-resolution QR code generator SaaS.) Tj ET
+0.396 0.302 0.714 rg
+BT /F2 9.5 Tf 42.00 177.79 Td (PROFESSIONAL CERTIFICATIONS) Tj ET
+0.78 0.77 0.86 RG
+0.75 w 42 173.79 m 553.28 173.79 l S
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 46.00 162.79 Td (- Google Cloud Professional Developer - Google \(2025\)) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 307.00 162.79 Td (- IBM Full Stack Software Developer - IBM \(2024\)) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 46.00 151.79 Td (- React Advanced Developer Certification - Meta \(2025\)) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 307.00 151.79 Td (- Meta Front-End Developer Professional - Meta \(2024\)) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 46.00 140.79 Td (- AWS Certified Solutions Architect - AWS \(2024\)) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 307.00 140.79 Td (- Tailwind CSS Expert Certification - Tailwind Labs \(2024\)) Tj ET
+0.15 0.14 0.22 rg
+BT /F1 8.4 Tf 46.00 129.79 Td (- Microsoft Certified: Azure Developer Associate \(2024\)) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000267 00000 n 
+0000000364 00000 n 
+0000000466 00000 n 
+0000000571 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9508
+%%EOF

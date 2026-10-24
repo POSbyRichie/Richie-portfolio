@@ -1,0 +1,79 @@
+/* Smooth scroll + prevent layout shift */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scrollbar-gutter: stable;
+}
+
+/* Remove tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ensure images don't cause layout shift */
+img {
+  display: block;
+}
+
+/* Typography helpers matching katiyardesign.md.txt */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+.variable-font {
+  font-variation-settings: "wght" 400;
+  transition: font-variation-settings 0.25s ease;
+}
+
+.variable-font:hover {
+  font-variation-settings: "wght" 600;
+}
+
+/* Subtle selection highlight */
+::selection {
+  background-color: rgba(101, 77, 182, 0.2);
+  color: inherit;
+}
+
+.dark ::selection {
+  background-color: rgba(182, 173, 243, 0.25);
+  color: inherit;
+}
+
+/* Print optimization for Resume view */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #0a0719 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Motion: respect user preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
